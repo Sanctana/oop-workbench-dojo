@@ -1,22 +1,12 @@
-
-import Character.Player;
-import java.util.Scanner;
-import java.io.File;
-import java.io.FileNotFoundException;
 import Character.PlayerCreator;
+import Story.Chapters.Chapter1;
+import Story.Chapters.Chapter2;
+import Story.Introduction;
+import Character.Player;
 public class Main {
     public static void main(String[] args) {
-        /*
-        Scanner sc = new Scanner(System.in);
-        try{
-            // testing - for the intro.txt || file handling - itago puhon
-        }catch{
-
-        }
-    }
-         */
-
-        Player player = PlayerCreator.createPlayer();
-
+        Player player = Introduction.prologue();
+        Chapter1.flowCh_1(player);  // testing
+        Chapter2.flowCh_2(); // testing
     }
 }

@@ -1,0 +1,13 @@
+1) weapon class -> player
+2) player attribute -> magic basic attack - diff from weapon damage
+
+
+/*
+        Scanner sc = new Scanner(System.in);
+        try{
+            // testing - for the intro.txt || file handling - itago puhon
+        }catch{
+
+        }
+    }
+         */
